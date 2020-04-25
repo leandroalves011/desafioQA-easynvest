@@ -1,0 +1,56 @@
+18:40:58.533 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:40:58.569 request:
+1 > GET https://swapi.dev/api/planets/1/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: swapi.dev
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+18:40:59.478 response time in milliseconds: 907,57
+1 < 200
+1 < Allow: GET, HEAD, OPTIONS
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sat, 25 Apr 2020 21:41:01 GMT
+1 < ETag: "83daa8122a1b603d0e5cf219db5bd8b8"
+1 < Server: nginx/1.16.1
+1 < Strict-Transport-Security: max-age=15768000
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept, Cookie
+1 < X-Frame-Options: SAMEORIGIN
+{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1 standard","terrain":"desert","surface_water":"1","population":"200000","residents":["http://swapi.dev/api/people/1/","http://swapi.dev/api/people/2/","http://swapi.dev/api/people/4/","http://swapi.dev/api/people/6/","http://swapi.dev/api/people/7/","http://swapi.dev/api/people/8/","http://swapi.dev/api/people/9/","http://swapi.dev/api/people/11/","http://swapi.dev/api/people/43/","http://swapi.dev/api/people/62/"],"films":["http://swapi.dev/api/films/1/","http://swapi.dev/api/films/3/","http://swapi.dev/api/films/4/","http://swapi.dev/api/films/5/","http://swapi.dev/api/films/6/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"http://swapi.dev/api/planets/1/"}
+
+18:40:59.480 [print] {
+  "name": "Tatooine",
+  "rotation_period": "23",
+  "orbital_period": "304",
+  "diameter": "10465",
+  "climate": "arid",
+  "gravity": "1 standard",
+  "terrain": "desert",
+  "surface_water": "1",
+  "population": "200000",
+  "residents": [
+    "http://swapi.dev/api/people/1/",
+    "http://swapi.dev/api/people/2/",
+    "http://swapi.dev/api/people/4/",
+    "http://swapi.dev/api/people/6/",
+    "http://swapi.dev/api/people/7/",
+    "http://swapi.dev/api/people/8/",
+    "http://swapi.dev/api/people/9/",
+    "http://swapi.dev/api/people/11/",
+    "http://swapi.dev/api/people/43/",
+    "http://swapi.dev/api/people/62/"
+  ],
+  "films": [
+    "http://swapi.dev/api/films/1/",
+    "http://swapi.dev/api/films/3/",
+    "http://swapi.dev/api/films/4/",
+    "http://swapi.dev/api/films/5/",
+    "http://swapi.dev/api/films/6/"
+  ],
+  "created": "2014-12-09T13:50:49.641000Z",
+  "edited": "2014-12-20T20:58:18.411000Z",
+  "url": "http://swapi.dev/api/planets/1/"
+}
+
